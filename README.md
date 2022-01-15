@@ -1,7 +1,15 @@
-# Vue 3 + Vite
+# URL Shortener API Landing Page
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is mobile-first solutions using VueJs for URL Shortener API Landing Page challenge by frontendmentor.io
 
-## Recommended IDE Setup
+## Tools Stack
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+- Vue.js 3
+- Vite
+- Tailwind CSS
+
+## Command
+
+- `npm run dev` -> start dev server
+- `npm run build` -> build for production
+- `npm run preview` -> locally preview production build
