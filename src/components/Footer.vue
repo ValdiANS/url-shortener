@@ -11,10 +11,10 @@
       </a>
 
       <div
-        class="flex flex-col flex-wrap gap-x-24 gap-y-16 text-center sm:flex-row sm:text-left"
+        class="flex flex-col flex-wrap gap-x-24 gap-y-16 text-center sm:flex-row sm:text-left lg:flex-nowrap"
       >
         <section class="flex flex-col gap-y-2">
-          <h3 class="text-white font-bold tracking-tight mb-4">Features</h3>
+          <h2 class="text-white font-bold tracking-tight mb-4">Features</h2>
           <a
             href="#"
             class="text-neutral-gray hover:text-primary-cyan duration-200"
@@ -33,7 +33,7 @@
         </section>
 
         <section class="flex flex-col gap-y-2">
-          <h3 class="text-white font-bold tracking-tight mb-4">Resources</h3>
+          <h2 class="text-white font-bold tracking-tight mb-4">Resources</h2>
           <a
             href="#"
             class="text-neutral-gray hover:text-primary-cyan duration-200"
@@ -52,7 +52,7 @@
         </section>
 
         <section class="flex flex-col gap-y-2">
-          <h3 class="text-white font-bold tracking-tight mb-4">Company</h3>
+          <h2 class="text-white font-bold tracking-tight mb-4">Company</h2>
           <a
             href="#"
             class="text-neutral-gray hover:text-primary-cyan duration-200"
@@ -75,7 +75,7 @@
           >
         </section>
 
-        <section class="social-media h-fit flex gap-x-5">
+        <div class="social-media h-fit flex gap-x-5">
           <a href="#" class="group">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
               <path
@@ -115,7 +115,7 @@
               />
             </svg>
           </a>
-        </section>
+        </div>
       </div>
     </div>
   </footer>

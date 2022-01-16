@@ -46,7 +46,11 @@ const submitHandler = async () => {
       link: original_link,
       shortLink: full_short_link2,
     });
-    links.value = getLinks();
+
+    links.value.unshift({
+      link: original_link,
+      shortLink: full_short_link2,
+    });
 
     input.value = '';
     console.log('Submitted');
@@ -130,12 +134,19 @@ window.onscroll = () => {
             </button>
           </form>
 
-          <LinkItem
-            v-for="item in links"
-            :key="item"
-            :link="item.link"
-            :shortLink="item.shortLink"
-          />
+          <transition-group
+            name="link-items-transition"
+            enter-active-class="duration-300"
+            enter-from-class="scale-x-0"
+            enter-to-class="scale-x-100"
+          >
+            <LinkItem
+              v-for="item in links"
+              :key="item"
+              :link="item.link"
+              :shortLink="item.shortLink"
+            />
+          </transition-group>
         </div>
 
         <div class="statistic-container container mx-auto mt-4 text-center">
