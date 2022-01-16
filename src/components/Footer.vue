@@ -11,7 +11,7 @@
       </a>
 
       <div
-        class="flex flex-col flex-wrap gap-x-24 gap-y-16 text-center sm:flex-row sm:text-left lg:flex-nowrap"
+        class="flex flex-col flex-wrap gap-x-24 gap-y-16 text-center whitespace-nowrap sm:flex-row sm:text-left lg:flex-nowrap"
       >
         <section class="flex flex-col gap-y-2">
           <h2 class="text-white font-bold tracking-tight mb-4">Features</h2>
